@@ -18,7 +18,7 @@ export const EmoticonRegex = /^(¯\\_\(ツ\)_\/¯)/;
 
 export const SpoilerRegex = /^\|\|([\s\S]+?)\|\|/;
 
-export const StrikeThroughRegex = /^~~([\s\S]+?)~~(?!_)/;
+export const StrikeThroughRegex = /^(~~([\s\S]+?)~~)|(__([\s\S]+?)~~)(?!_)/;
 
 export const TextRegex = /^[\s\S]+?(?=[^0-9A-Za-z\s]|\n\n|\n|\w+:\S|$)/;
 
