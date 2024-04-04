@@ -26,4 +26,4 @@ export const TimestampRegex = /^<t:(\d+)(?::(R|t|T|d|D|f|F))?>/;
 
 export const HeadingRegex = /^(#{1,3}) +([^\n]+?)(\n|$)/;
 
-export const ListRegex = /^( *)- +([^\n]+?)(\n|$)/;
+export const ListRegex = /^(( {0,10})(-|\*)) +([^\n]+?)(\n|$)/;
